@@ -1,13 +1,19 @@
 Premier-League-Data-Analysis
-# Premier League Data Analysis 📊⚽
 
-Este repositorio contiene un análisis de datos de la Premier League utilizando Python y la biblioteca Pandas. El objetivo es demostrar técnicas de manipulación y visualización de datos, así como descubrir tendencias y estadísticas clave relacionadas con una de las ligas de fútbol más importantes del mundo.
+# Premier League 2020/21 Data Analysis 📊⚽
 
-## Estructura del Proyecto 📁
+Este repositorio contiene un análisis de datos de la temporada 2020/21 de la Premier League utilizando Python y la biblioteca Pandas. El objetivo es explorar estadísticas, descubrir tendencias clave y practicar técnicas de manipulación y visualización de datos.
 
-- `Pandas Análisis de Datos - Premier League.ipynb`: Notebook principal con el análisis de datos.
-- `datasets/`: Carpeta que contiene los conjuntos de datos utilizados para el análisis.
-- `README.md`: Descripción del proyecto.
+## Archivo de Datos 📂
+
+El análisis utiliza el archivo `EPL_20_21.csv`, que contiene información detallada sobre la temporada 2020/21, incluyendo:
+
+- Equipos
+- Resultados de partidos
+- Estadísticas de jugadores
+- Métricas avanzadas (goles, asistencias, posesión, etc.)
+
+**Nota:** Asegúrate de tener este archivo en el mismo directorio que el notebook.
 
 ## Requisitos 🛠️
 
@@ -19,8 +25,9 @@ Asegúrate de tener instalado:
   - `numpy`
   - `matplotlib`
   - `seaborn`
-  
+
 Para instalar las dependencias, ejecuta:
 
 ```bash
 pip install pandas numpy matplotlib seaborn
+
